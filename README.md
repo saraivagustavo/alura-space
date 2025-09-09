@@ -1,13 +1,13 @@
 # Alura Space
 
 **Alura Space** é uma aplicação web desenvolvida com Django, parte da formação da Alura em Django. O projeto simula um CRUD para o envio de publicações sobre corpos celestes, permitindo aos usuários cadastrar, visualizar, editar e excluir imagens relacionadas ao espaço.
+De acordo com minha progressão na formação, o respositório, assim como a documentação, serão atualizados de acordo com as novidades!
 
 ## 🚀 Tecnologias Utilizadas
 
 - **Backend**: Python 3.10+, Django 4.x
 - **Frontend**: HTML, CSS
 - **Banco de Dados**: SQLite (para desenvolvimento)
-- **Armazenamento de Imagens**: AWS S3 (via `django-storages`)
 - **Autenticação**: Sistema de login próprio
 
 ## 📁 Estrutura do Projeto
@@ -15,7 +15,6 @@
 ```
 alura-space/
 ├── galeria/                # Aplicação principal
-│   ├── migrations/         # Migrações do banco de dados
 │   ├── templates/          # Templates HTML
 │   └── views.py            # Lógica de visualizações
 ├── setup/                  # Configurações do projeto
@@ -96,7 +95,18 @@ Para rodar os testes automatizados:
 python manage.py test
 ```
 
+## 📦 Dependências (requirements.txt)
+
+```
+django==4.2
+boto3==1.28.43
+django-storages==1.13.2
+python-dotenv==1.0.0
+```
+---
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
+
 
