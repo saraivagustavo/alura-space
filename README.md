@@ -98,10 +98,11 @@ python manage.py test
 ## 📦 Dependências (requirements.txt)
 
 ```
-django==4.2
-boto3==1.28.43
-django-storages==1.13.2
-python-dotenv==1.0.0
+asgiref==3.9.1
+Django==5.2.6
+python-dotenv==1.1.1
+sqlparse==0.5.3
+tzdata==2025.2
 ```
 ---
 
